@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.image {
+  width: 12rem;
+  border-radius: 0.5rem;
+}
+
+.contact-details {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.contact-item {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.link {
+  font-family: var(--bold-italic-font-family);
+  color: var(--blue);
+}

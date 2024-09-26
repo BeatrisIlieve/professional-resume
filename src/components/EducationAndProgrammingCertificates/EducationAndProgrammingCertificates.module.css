@@ -1,4 +1,39 @@
-.education {
+.education-and-programming-certificates {
   grid-area: education;
   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.university-title {
+  font-size: var(--small);
+}
+
+.education-year {
+  font-size: var(--small);
+}
+
+.education-title {
+  font-size: var(--medium);
+}
+
+.certificates {
+  height: 60%;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.certificate-image {
 }

@@ -1,12 +1,8 @@
 import { EducationAndProgrammingCertificates } from "./components/EducationAndProgrammingCertificates/EducationAndProgrammingCertificates";
-
+import { Header } from "./Header/Header";
 import "normalize.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 import styles from "./App.module.css";
 
@@ -14,10 +10,10 @@ function App() {
   return (
     <section className={styles["resume"]}>
       <div className={styles["content"]}>
-        <header className={styles["about"]}>About</header>
+        <Header/>
         <section className={styles["project"]}>Project</section>
-        <EducationAndProgrammingCertificates />
-        <footer section className={styles["footer"]}>
+        {/* <EducationAndProgrammingCertificates /> */}
+        {/* <footer section className={styles["footer"]}>
           <img
             alt="React"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -90,7 +86,7 @@ function App() {
             alt="Visual Studio Code"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
           />
-        </footer>
+        </footer> */}
       </div>
     </section>
   );

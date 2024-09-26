@@ -1,3 +1,5 @@
+@import "./global.css";
+
 .resume {
   width: 794px;
   height: 1123px;
@@ -7,7 +9,7 @@
 
 .content {
   display: grid;
-  grid-template-rows: 1fr auto 1fr 30px;
+  grid-template-rows: 20% auto 20% 30px;
   grid-template-areas:
     "about"
     "project"
@@ -41,11 +43,6 @@
 .project {
   grid-area: project;
   background-color: antiquewhite;
-}
-
-.education {
-  grid-area: education;
-  background-color: aqua;
 }
 
 .footer {

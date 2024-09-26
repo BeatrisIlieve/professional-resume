@@ -1,3 +1,5 @@
+import { EducationAndProgrammingCertificates } from "./components/EducationAndProgrammingCertificates/EducationAndProgrammingCertificates";
+
 import "normalize.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,10 +14,10 @@ function App() {
   return (
     <section className={styles["resume"]}>
       <div className={styles["content"]}>
-        <section className={styles["about"]}>About</section>
+        <header className={styles["about"]}>About</header>
         <section className={styles["project"]}>Project</section>
-        <section className={styles["education"]}>education</section>
-        <section section className={styles["footer"]}>
+        <EducationAndProgrammingCertificates />
+        <footer section className={styles["footer"]}>
           <img
             alt="React"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -88,7 +90,7 @@ function App() {
             alt="Visual Studio Code"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
           />
-        </section>
+        </footer>
       </div>
     </section>
   );

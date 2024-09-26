@@ -1,6 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.media-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.demo-video {
+  width: 70%;
+}
+
+.mobile-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 30%;
+}
+
+.images-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+}
+
 .list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  list-style: circle;
+  margin: 0;
+  padding: 0 20px;
 }
 
+.list-item {
+  list-style: circle;
+}
+
+.testing-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}

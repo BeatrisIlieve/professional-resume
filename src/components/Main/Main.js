@@ -5,7 +5,7 @@ export const Main = () => {
     <section className={styles["main"]}>
       <div className={styles["media-wrapper"]}>
         <div className={styles["demo-video"]}>
-          <h3 className={styles["website-sub-title"]}>Demo Video:</h3>
+          <h3 className={styles["media-title"]}>Demo Video on Desktop:</h3>
           <a
             href="https://www.youtube.com/watch?v=vduKmyrec2k"
             target="_blank"
@@ -19,7 +19,7 @@ export const Main = () => {
           </a>
         </div>
         <div className={styles["mobile-images"]}>
-          <h3 className={styles["website-sub-title"]}>On Mobile:</h3>
+          <h3 className={styles["media-title"]}>On Mobile:</h3>
           <div className={styles["images-flex-container"]}>
             <div className={styles["sub-container"]}>
               <a

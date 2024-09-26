@@ -9,15 +9,24 @@
   gap: 10px;
 }
 
-.demo-video {
-  width: 70%;
+.media-title {
+  font-size: var(--small);
+  font-family: var(--bold-font-family);
 }
 
+.demo-video,
 .mobile-images {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  width: 30%;
+}
+
+.demo-video {
+  width: 66%;
+}
+
+.mobile-images {
+  width: 34%;
 }
 
 .images-flex-container {

@@ -38,6 +38,7 @@
 
 .description-icon {
   color: var(--golden);
+  font-size: 12px;
 }
 
 .testing-wrapper {
@@ -53,7 +54,7 @@
 }
 
 .link-icon {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--violet);
 }
 

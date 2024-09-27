@@ -16,7 +16,8 @@ export const EducationAndProgrammingCertificates = () => {
           </div>
           <ul role="list">
             <li className={styles["education-title"]}>
-              <FontAwesomeIcon icon={faUserGraduate} /> Master of Strategic Leadership
+              <FontAwesomeIcon icon={faUserGraduate} /> Master of Strategic
+              Leadership
             </li>
           </ul>
         </div>
@@ -40,13 +41,11 @@ export const EducationAndProgrammingCertificates = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <div className={styles["certificate-thumbnail"]}> */}
           <img
             src="https://res.cloudinary.com/deztgvefu/image/upload/certificates/basics_cjsywg.jpg"
             alt=""
             className={styles["certificate-image"]}
           />
-          {/* </div> */}
         </a>
         <a
           href="https://res.cloudinary.com/deztgvefu/image/upload/certificates/fundamentals_r7mfkc.jpg"

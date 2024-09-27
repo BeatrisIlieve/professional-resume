@@ -1,1 +1,1 @@
-[Download the PDF](./resume.pdf)
+[Download the Resume (PDF)](./resume.pdf)

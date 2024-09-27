@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+
 import styles from "./Main.module.css";
 
 export const Main = () => {
@@ -17,9 +21,9 @@ export const Main = () => {
             />
           </a>
         </div>
-        <ul className={styles["description-list"]}>
+        <ul className={styles["description-list"]} role="list">
           <li className={styles["list-item"]}>
-            Built with <b>MongoDB</b>, <b>Express</b>.js, <b>React</b> and{" "}
+          <FontAwesomeIcon icon={faCode} className={styles["description-icon"]}/> Built with <b>MongoDB</b>, <b>Express</b>.js, <b>React</b> and{" "}
             <b>Node</b>.js
           </li>
           <li className={styles["list-item"]}>
@@ -66,7 +70,7 @@ export const Main = () => {
         </ul>
         <div className={styles["links"]}>
           <div className={styles["media-title"]}>
-            Website:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Website:
             <a
               href="http://ec2-15-236-191-107.eu-west-3.compute.amazonaws.com"
               target="_blank"
@@ -77,7 +81,7 @@ export const Main = () => {
             </a>
           </div>
           <div className={styles["media-title"]}>
-            Frontend Repository:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Frontend Repository:
             <a
               href="https://github.com/BeatrisIlieve/mern-gems-frontend"
               target="_blank"
@@ -88,7 +92,7 @@ export const Main = () => {
             </a>
           </div>
           <div className={styles["media-title"]}>
-            Backend Repository:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Backend Repository:
             <a
               href="https://github.com/BeatrisIlieve/mern-gems-backend"
               target="_blank"

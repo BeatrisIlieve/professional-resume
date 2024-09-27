@@ -17,7 +17,6 @@ export const Main = () => {
             />
           </a>
         </div>
-        <div className={styles["links"]}></div>
         <ul className={styles["description-list"]}>
           <li className={styles["list-item"]}>
             Built with <b>MongoDB</b>, <b>Express</b>.js, <b>React</b> and{" "}
@@ -58,16 +57,51 @@ export const Main = () => {
             Error Handling delivering notifications for <b>backend</b> issues
           </li>
           <li className={styles["list-item"]}>
-            <b>Database aggregations</b> for Product Filtering and Real-Time
-            Availability Tracking
+            <b>Database aggregations</b> for Product Filtering and Availability
+            Tracking
           </li>
           <li className={styles["list-item"]}>
-            <b>Responsive Design</b> - fully optimized for all device sizes
+            <b>Responsive Design</b> - optimized for all device sizes
           </li>
         </ul>
+        <div className={styles["links"]}>
+          <div className={styles["media-title"]}>
+            Website:
+            <a
+              href="http://ec2-15-236-191-107.eu-west-3.compute.amazonaws.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles["link"]}
+            >
+              http://ec2-15-236-191-107.eu-west-3.compute.amazonaws.com
+            </a>
+          </div>
+          <div className={styles["media-title"]}>
+            Frontend Repository:
+            <a
+              href="https://github.com/BeatrisIlieve/mern-gems-frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles["link"]}
+            >
+              https://github.com/BeatrisIlieve/mern-gems-frontend
+            </a>
+          </div>
+          <div className={styles["media-title"]}>
+            Backend Repository:
+            <a
+              href="https://github.com/BeatrisIlieve/mern-gems-backend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles["link"]}
+            >
+              https://github.com/BeatrisIlieve/mern-gems-backend
+            </a>
+          </div>
+        </div>
       </div>
       <div className={styles["right"]}>
-      <h3 className={styles["media-title"]}>On Mobile:</h3>
+        <h3 className={styles["media-title"]}>On Mobile:</h3>
         <div className={styles["half"]}>
           <a
             href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/login_imeoyy.png"

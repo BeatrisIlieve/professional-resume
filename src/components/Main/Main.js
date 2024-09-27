@@ -101,7 +101,8 @@ export const Main = () => {
               icon={faCode}
               className={styles["description-icon"]}
             />{" "}
-            <b>Responsive Design</b> - optimized for all device sizes via media queries
+            <b>Responsive Design</b> - optimized for all device sizes via media
+            queries
           </li>
         </ul>
         <div className={styles["links"]}>

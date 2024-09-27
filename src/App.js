@@ -1,7 +1,7 @@
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./Header/Header";
+import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
-import { SectionSeparator } from "./SectionSeparator/SectionSeparator";
+import { SectionSeparator } from "./components/SectionSeparator/SectionSeparator";
 
 import "normalize.css";
 

@@ -15,6 +15,8 @@ function App() {
           text={"MERNGems - MERN Stack Single Page Application"}
         />
         <Main />
+        <SectionSeparator text={"Education and Programming Certificates"} />
+        <EducationAndProgrammingCertificates/>
       </div>
     </section>
   );

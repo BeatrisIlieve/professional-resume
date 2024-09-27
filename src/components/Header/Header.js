@@ -35,9 +35,9 @@ export const Header = () => {
             <div className={styles["contact-item"]}>
               <FontAwesomeIcon icon={faHouse} /> Sofia, Bulgaria
             </div>
-            <div className={styles["contact-item"]}>
+            {/* <div className={styles["contact-item"]}>
               <FontAwesomeIcon icon={faPhone} /> 0877566691
-            </div>
+            </div> */}
           </div>
         </div>
         <ul className={styles["skills-list"]} role="list">

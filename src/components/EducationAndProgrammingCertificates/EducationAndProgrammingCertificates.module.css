@@ -8,14 +8,11 @@
   justify-content: space-between;
   flex-direction: column;
   flex: 1;
-  /* gap: 0.75rem; */
-
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  /* gap: 0.25rem; */
 }
 
 .university-title {
@@ -38,9 +35,6 @@
 }
 
 .certificates {
-  /* height: 60%;
-  display: flex;
-  gap: 0.25rem; */
   display: grid;
   grid-template-columns: repeat(6, 78px);
   gap: 0.25rem;
@@ -51,8 +45,5 @@
   width: 120px;
 }
 .certificate-image {
-  /* width: 100%;
-  height: 100%;
-  object-fit: contain; */
   aspect-ratio: 1/2;
 }

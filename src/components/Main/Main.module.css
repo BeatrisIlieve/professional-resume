@@ -41,7 +41,7 @@
 }
 
 .description-icon {
-  color: var(--golden);
+  color: var(--dark-golden);
   font-size: 12px;
 }
 
@@ -66,14 +66,14 @@
 .right {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
+  gap: 0.5rem;
   width: 26%;
   margin-bottom: auto;
 }
 
 .half {
   display: flex;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .mobile-images-style {

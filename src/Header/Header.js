@@ -56,8 +56,8 @@ export const Header = () => {
           <li className={styles["list-item"]}>Mongoose</li>
           <li className={styles["list-item"]}>Jest</li>
           <li className={styles["list-item"]}>GitHub Actions</li>
-          <li className={styles["list-item"]}>AWS</li>
-          <li className={styles["list-item"]}>VSC</li>
+          <li className={styles["list-item"]}>Amazon Web Services</li>
+          <li className={styles["list-item"]}>Visual Studio Code</li>
           <li className={styles["list-item"]}>Pycharm</li>
           <li className={styles["list-item"]}>Docker</li>
         </ul>

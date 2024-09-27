@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
+
 import styles from "./EducationAndProgrammingCertificates.module.css";
 
 export const EducationAndProgrammingCertificates = () => {
@@ -13,7 +16,7 @@ export const EducationAndProgrammingCertificates = () => {
           </div>
           <ul role="list">
             <li className={styles["education-title"]}>
-              Master of Strategic Leadership
+              <FontAwesomeIcon icon={faUserGraduate} /> Master of Strategic Leadership
             </li>
           </ul>
         </div>
@@ -25,7 +28,9 @@ export const EducationAndProgrammingCertificates = () => {
             September 2012 - July 2016
           </div>
           <ul role="list">
-            <li className={styles["education-title"]}>Bachelor of Economics</li>
+            <li className={styles["education-title"]}>
+              <FontAwesomeIcon icon={faUserGraduate} /> Bachelor of Economics
+            </li>
           </ul>
         </div>
       </div>

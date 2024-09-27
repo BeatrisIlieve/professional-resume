@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
-import styles from "./EducationAndProgrammingCertificates.module.css";
+import styles from "./Footer.module.css";
 
-export const EducationAndProgrammingCertificates = () => {
+export const Footer = () => {
   return (
-    <section className={styles["education-and-programming-certificates"]}>
+    <footer className={styles["footer"]}>
       <div className={styles["education"]}>
         <div className={styles["wrapper"]}>
           <div className={styles["university-title"]}>
@@ -103,6 +103,6 @@ export const EducationAndProgrammingCertificates = () => {
           />
         </a>
       </div>
-    </section>
+    </footer>
   );
 };

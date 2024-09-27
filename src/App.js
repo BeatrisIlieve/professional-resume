@@ -1,4 +1,4 @@
-import { EducationAndProgrammingCertificates } from "./components/EducationAndProgrammingCertificates/EducationAndProgrammingCertificates";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./Header/Header";
 import { Main } from "./components/Main/Main";
 import { SectionSeparator } from "./SectionSeparator/SectionSeparator";
@@ -17,7 +17,7 @@ function App() {
         />
         <Main />
         <SectionSeparator text={"Education and Programming Certificates"} />
-        <EducationAndProgrammingCertificates />
+        <Footer />
       </div>
     </section>
   );

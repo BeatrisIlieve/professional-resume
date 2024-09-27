@@ -64,7 +64,7 @@ export const Main = () => {
               className={styles["description-icon"]}
             />{" "}
             Optimized performance with React's <b>useMemo</b>,{" "}
-            <b>useCallback</b>, and <b>memo</b>
+            <b>useCallback</b> and <b>memo</b>
           </li>
           <li className={styles["list-item"]}>
             <FontAwesomeIcon
@@ -101,7 +101,7 @@ export const Main = () => {
               icon={faCode}
               className={styles["description-icon"]}
             />{" "}
-            <b>Responsive Design</b> - optimized for all device sizes
+            <b>Responsive Design</b> - optimized for all device sizes via media queries
           </li>
         </ul>
         <div className={styles["links"]}>

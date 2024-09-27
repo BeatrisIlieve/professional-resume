@@ -10,7 +10,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 14px;
   font-family: var(--main-font-family);
   font-size: var(--medium);
   line-height: 1.4;

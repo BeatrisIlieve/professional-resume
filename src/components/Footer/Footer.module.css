@@ -1,4 +1,4 @@
-.education-and-programming-certificates {
+.footer {
   display: flex;
   justify-content: space-between;
 }
@@ -36,7 +36,7 @@
 
 .certificates {
   display: grid;
-  grid-template-columns: repeat(6, 78px);
+  grid-template-columns: repeat(6, 76px);
   gap: 0.15rem;
   margin-top: auto;
   margin-bottom: auto;

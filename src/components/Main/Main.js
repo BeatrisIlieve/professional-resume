@@ -38,11 +38,11 @@ export const Main = () => {
             Hosted on <b>Amazon Web Services</b> EC2 Instance
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />
             <div className={`${styles["testing-wrapper"]}`}>
-              <FontAwesomeIcon
-                icon={faCode}
-                className={styles["description-icon"]}
-              />{" "}
               <span>Testing - Jest</span>
               <span>
                 <img

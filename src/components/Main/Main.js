@@ -145,77 +145,79 @@ export const Main = () => {
       </div>
       <div className={styles["right"]}>
         <h3 className={styles["media-title"]}>On Mobile:</h3>
-        <div className={styles["half"]}>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/login_imeoyy.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/login_imeoyy.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/home_dpk40t.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/home_dpk40t.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
-        </div>
-        <div className={styles["half"]}>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/collection_fkxgvc.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/collection_fkxgvc.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/bag_wurlyj.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/bag_wurlyj.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
-        </div>
-        <div className={styles["half"]}>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/wishlist_gs1tbv.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/wishlist_gs1tbv.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
-          <a
-            href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/order-confirmation_gwrn5n.png"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/order-confirmation_gwrn5n.png"
-              alt=""
-              className={styles["mobile-images-style"]}
-            />
-          </a>
+        <div className={styles["right-wrapper"]}>
+          <div className={styles["half"]}>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/login_imeoyy.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/login_imeoyy.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/home_dpk40t.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/home_dpk40t.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+          </div>
+          <div className={styles["half"]}>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/collection_fkxgvc.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/collection_fkxgvc.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/bag_wurlyj.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/bag_wurlyj.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+          </div>
+          <div className={styles["half"]}>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/wishlist_gs1tbv.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/wishlist_gs1tbv.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+            <a
+              href="https://res.cloudinary.com/deztgvefu/image/upload/mobile/order-confirmation_gwrn5n.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/deztgvefu/image/upload/mobile/order-confirmation_gwrn5n.png"
+                alt=""
+                className={styles["mobile-images-style"]}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>

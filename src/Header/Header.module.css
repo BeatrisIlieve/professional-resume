@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  gap: 10px;
+  gap: 12px;
 }
 
 .image {
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  font-size: var(--small);
+  font-size: var(--medium);
 }
 
 .link {
@@ -46,7 +46,7 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  width: 23rem;
+  width: 21rem;
 }
 
 .list-item {
@@ -61,5 +61,4 @@
   color: var(--blue);
   background-color: var(--light-blue);
   font-size: var(--small);
-  font-size: 12px;
 }

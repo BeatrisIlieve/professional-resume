@@ -23,14 +23,26 @@ export const Main = () => {
         </div>
         <ul className={styles["description-list"]} role="list">
           <li className={styles["list-item"]}>
-          <FontAwesomeIcon icon={faCode} className={styles["description-icon"]}/> Built with <b>MongoDB</b>, <b>Express</b>.js, <b>React</b> and{" "}
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
+            Built with <b>MongoDB</b>, <b>Express</b>.js, <b>React</b> and{" "}
             <b>Node</b>.js
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             Hosted on <b>Amazon Web Services</b> EC2 Instance
           </li>
           <li className={styles["list-item"]}>
             <div className={`${styles["testing-wrapper"]}`}>
+              <FontAwesomeIcon
+                icon={faCode}
+                className={styles["description-icon"]}
+              />{" "}
               <span>Testing - Jest</span>
               <span>
                 <img
@@ -47,30 +59,55 @@ export const Main = () => {
             </div>
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             Optimized performance with React's <b>useMemo</b>,{" "}
             <b>useCallback</b>, and <b>memo</b>
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             Custom <b>Forms</b>
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             Input Validation providing{" "}
             <b>immediate feedback before submission</b>
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             Error Handling delivering notifications for <b>backend</b> issues
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             <b>Database aggregations</b> for Product Filtering and Availability
             Tracking
           </li>
           <li className={styles["list-item"]}>
+            <FontAwesomeIcon
+              icon={faCode}
+              className={styles["description-icon"]}
+            />{" "}
             <b>Responsive Design</b> - optimized for all device sizes
           </li>
         </ul>
         <div className={styles["links"]}>
           <div className={styles["media-title"]}>
-            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Website:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]} />{" "}
+            Website:
             <a
               href="http://ec2-15-236-191-107.eu-west-3.compute.amazonaws.com"
               target="_blank"
@@ -81,7 +118,8 @@ export const Main = () => {
             </a>
           </div>
           <div className={styles["media-title"]}>
-            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Frontend Repository:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]} />{" "}
+            Frontend Repository:
             <a
               href="https://github.com/BeatrisIlieve/mern-gems-frontend"
               target="_blank"
@@ -92,7 +130,8 @@ export const Main = () => {
             </a>
           </div>
           <div className={styles["media-title"]}>
-            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]}/> Backend Repository:
+            <FontAwesomeIcon icon={faLink} className={styles["link-icon"]} />{" "}
+            Backend Repository:
             <a
               href="https://github.com/BeatrisIlieve/mern-gems-backend"
               target="_blank"

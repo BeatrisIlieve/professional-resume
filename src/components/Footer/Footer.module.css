@@ -36,7 +36,7 @@
 
 .certificates {
   display: grid;
-  grid-template-columns: repeat(6, 76px);
+  grid-template-columns: repeat(6, 72px);
   gap: 4px;
   margin-top: auto;
   margin-bottom: auto;
